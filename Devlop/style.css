@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    background-image: url('Robo-Coffee-4.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.9;
+} 
+
+#quiz-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quiz-container {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 30x;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#quiz-container h1 {
+     color: white;
+     text-shadow: 0 0 10px #fff, 
+     0 0 20px #fff, 
+     0 0 30px #e60073, 
+     0 0 40px #e60073, 
+     0 0 50px #e60073, 
+     0 0 60px #e60073, 
+     0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 
+      0 0 30px #ff4da6, 
+      0 0 40px #ff4da6, 
+      0 0 50px #ff4da6, 
+      0 0 60px #ff4da6, 
+      0 0 70px #ff4da6, 
+      0 0 80px #ff4da6;
+    }
+
+.question-box,
+.option-box {
+    border: 5px solid white;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #e60073, 
+    0 0 20px #e60073, 
+    0 0 25px #e60073, 
+    0 0 30px #e60073, 
+    0 0 35px #e60073;
+   }
+   to {
+     box-shadow: 0 0 20px #fff, 
+     0 0 15px #ff4da6, 
+     0 0 20px #ff4da6, 
+     0 0 25px #ff4da6, 
+     0 0 30px #ff4da6, 
+     0 0 35px #ff4da6, 
+     0 0 40px #ff4da6;
+
+};
+
+
+button {
+    padding: 10px 20px;
+    font: 16px;
+    margin: 10px;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 30x;
+    color: white;
+}
+
+#results {
+    margin-top: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+#initials {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#submit-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

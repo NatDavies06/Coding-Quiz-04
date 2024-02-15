@@ -34,4 +34,4 @@ This repository is my fourth bootcamp project. This web application has the user
 * Javascript
 
 ## Project Demo
-- [Coding Quiz](http://127.0.0.1:5501/Devlop/index.html)
+- [Coding Quiz](https://natdavies06.github.io/Coding-Quiz-04/)
